@@ -9,7 +9,7 @@ pub struct Toml {
 #[derive(Deserialize, Serialize)]
 pub struct StartData {
     pub _id: Option<String>,
-    pub type: Option<String>,
+    pub r#type: Option<String>,
     pub time: Option<f32>,
     pub deadships: Option<i32>,
     pub deadstations: Option<i32>,
@@ -24,7 +24,7 @@ pub struct StartData {
 #[derive(Deserialize, Serialize)]
 pub struct SectorData {
     pub _id: Option<String>,
-    pub type: Option<String>,
+    pub r#type: Option<String>,
     pub owner: Option<String>,
     pub sector: Option<String>,
     pub r#macro: Option<String>,
@@ -35,7 +35,7 @@ pub struct SectorData {
 #[derive(Deserialize, Serialize)]
 pub struct ShipData {
     pub _id: Option<String>,
-    pub type: Option<String>,
+    pub r#type: Option<String>,
     pub owner: Option<String>,
     pub ship: Option<String>,
     pub r#macro: Option<String>,
@@ -66,7 +66,7 @@ pub struct ShipData {
 #[derive(Deserialize, Serialize)]
 pub struct StationData {
     pub _id: Option<String>,
-    pub type: Option<String>,
+    pub r#type: Option<String>,
     pub owner: Option<String>,
     pub station: Option<String>,
     pub sector: Option<String>,
@@ -86,7 +86,7 @@ pub struct StationData {
 #[derive(Deserialize, Serialize)]
 pub struct OfferData {
     pub _id: Option<String>,
-    pub type: Option<String>,
+    pub r#type: Option<String>,
     pub offer: Option<String>,
     pub buyer: Option<String>,
     pub seller: Option<String>,
