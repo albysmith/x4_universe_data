@@ -99,7 +99,7 @@ pub struct OfferData {
     pub transferredamount: Option<i32>,
     pub destroyedamount: Option<i32>,
     pub volume: Option<i32>,
-    pub price: Option<i32>,
+    pub price: Option<i64>,
     pub unitprice: Option<i32>,
     pub iswareexchange: Option<bool>,
     pub isshiptoship: Option<bool>,
